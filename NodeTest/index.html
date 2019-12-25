@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no,tar　get-densitydpi=medium-dpi">
+	<!-- 위에는 https://webflower.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC-%EB%94%94%EC%9E%90%EC%9D%B8%EC%BD%94%EB%94%A9 참조했는데 무슨 의미인지 모르겠엉ㅠ -->
+	<title>index</title>
+	<link rel="stylesheet" href="css/reset.css"><!-- 기본 스타일 정리 css -->
+	<link rel="stylesheet" href="css/index.css"><!-- index용 스타일 css -->
+	<!-- 폰트 미정-->
+
+</head>
+<body>
+	<ul class="tabs"><!-- * 하단 고정 탭바 * -->
+		<li class="tab-link current" data-tab="tab-1">홈</li>
+		<li class="tab-link" data-tab="tab-2">카테고리</li>
+		<li class="tab-link" data-tab="tab-3">마이페이지</li>
+	</ul>
+
+	<div id="container"><!-- 유동 페이지 -->
+		<!-- tab-1.홈 화면(첫 페이지) -->
+		<div id="tab-1" class="tab-content current">
+			<header><!-- 첫 페이지 상단 -->
+				<h1><a href="index.html">임박몰</a></h1>
+				<div class="search"><!-- 검색창 -->
+					<input type="text">
+					<a href="search.html">검색</a>
+				</div>
+				<a href="cartpage.html">장바구니</a>
+			</header>
+			<section class="event"><!-- 메인 베너(첫번째 배너만 버튼 작동) -->
+				<ol>
+					<li><a href="eventpage.html">임박 BEST 50</a></li>
+					<li>만원 이하 초특가</li>
+					<li>끝내기 세일</li>
+					<li>감사의 마음을 담아</li>
+					<li>간편하게 한 끼 해결</li>
+					<li>주부 9단의 화려한 주방</li>
+					<li>술안주 걱정 끝</li>
+					<li>슬림핏 그녀의 자신감</li>
+					<li>우리아이 맞춤 사랑</li>
+					<li>어르신 추천상품</li>
+					<li>바삭바삭 수입과자 모음</li>
+				</ol>
+			</section>
+			<nav><!-- 대메뉴 목록 -->
+				<ul>
+					<li><a href="drinkmenu">음료 / 커피 / 차</a></li>
+					<li><a href="foodmenu">식품 / 먹거리</a></li>
+					<li><a href="snackmenu">간식 / 스낵</a></li>
+					<li><a href="healthmenu">건강식품</a></li>
+					<li><a href="cosmeticmenu">화장품 / 뷰티</a></li>
+					<li><a href="stuffmenu">생활 / 잡화</a></li>
+				</ul>
+			</nav>
+			<section class="content"><!-- 컨텐츠 -->
+				<article class="item"><!-- 상품 목록 -->
+					<div class="best"><!-- 인기 상품 목록 -->
+						<h2>베스트 상품</h2>
+						<ul>
+							<li class="first">
+								<a href="detailpage.html">
+									<h3>[ER1][74%] 탄탄 건조망고 (5봉 / 10봉 中 선택)</h3>
+									<p>50,000원</p>
+									<p><b>12,900원</b></p>
+								</a>
+							</li>
+							<li class="second">
+								<a href="detailpage.html">
+									<h3>[BF1][49%] 구아카몰 500g * 5팩</h3>
+									<p>63,000원</p>
+									<p><b>31,900원</b></p>
+								</a>
+							</li>
+							<li class="third">
+								<a href="detailpage.html">
+									<h3>[EB8][75%] 돈타파스 가스파초 750ml * 6병</h3>
+									<p>53,400원</p>
+									<p><b>12,900원</b></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="new">
+						<h2>신규입고상품</h2><!-- 신상품 목록 -->
+						<ul>
+							<li class="first">
+								<a href="detailpage.html">
+									<h3>[ER1][74%] 탄탄 건조망고 (5봉 / 10봉 中 선택)</h3>
+									<p>50,000원</p>
+									<p><b>12,900원</b></p>
+								</a>
+							</li>
+							<li class="second">
+								<a href="detailpage.html">
+									<h3>[EU4][61%] 다보 블랙커런트잼 28g * 60개입</h3>
+									<p>90,000원</p>
+									<p><b>34,500원</b></p>
+								</a>
+							</li>
+							<li class="third">
+								<a href="detailpage.html">
+									<h3>[CB7][50%] 온가족 츄어블 유산균 1,200mg * 180정</h3>
+									<p>15,900원</p>
+									<p><b>7,900원</b></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="custserv"><!-- 첫 페이지 고객센터(버튼 작동x) -->
+					<h2>고객센터</h2>
+					<a href="tel:012-3456-7890">통화</a>
+					<p>고객센터 운영 시간: 평일 오전 11시 ~ 오후 5시<br>(점심시간 12시 30분 ~ 1시 30분 제외)</p>
+					<div class="button">
+						<a href="">자주묻는질문</a>
+						<a href="">1:1 문의</a>
+						<a href="">입점문의</a>
+					</div>
+				</article>
+				<article class="bank"><!-- 첫 페이지 무통장입금 계좌 안내문 -->
+					<h2>입금 계좌</h2>
+					<h3>XX OOO-OOOO-OOOO-OO</h3>
+					<p>예금주 : XXXXXXXXXX </p>
+					<p><strong>* 상기계좌 입금 시 반드시 입금자명은 주문자명과 동일해야 합니다.</strong></p>
+				</article>
+			</section>
+		</div>
+		
+
+		<!-- tab-2.카테고리 화면(두번째 페이지) -->
+		<div id="tab-2" class="tab-content">
+			<header><!-- 두번째 페이지 상단 -->
+				<h2>카테고리</h2>
+				<a href="search.html">검색</a>
+				<a href="cartpage.html">장바구니</a>
+			</header>
+			<section class="category"><!-- 카테고리 목록(버튼 작동x) -->
+				<ul>
+					<li class="drink"><!-- 음료 / 커피 / 차 -->
+						<h2>음료 / 커피 / 차</h2>
+						<ul>
+							<li>차류</li>
+							<li>주스 / 과즙</li>
+							<li>음료</li>
+							<li>빙과류</li>
+							<li>커피류</li>
+						</ul>
+					</li>
+					<li class="food"><!-- 식품 / 먹거리 -->
+						<h2>식품 / 먹거리</h2>
+						<ul>
+							<li>즉석식품</li>
+							<li>햄 / 소시지</li>
+							<li>파스타 / 국수</li>
+							<li>육류 / 가공육</li>
+							<li>수산물</li>
+							<li>통조림 / 병조림</li>
+							<li>소스 / 양념 / 장</li>
+							<li>오일류</li>
+							<li>잼 / 시럽</li>
+							<li>유제품 / 치즈</li>
+							<li>곡물 / 농산물류</li>
+							<li>김치 / 절임 / 반찬</li>
+						</ul>
+					</li>
+					<li class="snack"><!-- 간식 / 스낵 -->
+						<h2>간식 / 스낵</h2>
+						<ul>
+							<li>초콜릿</li>
+							<li>시리얼</li>
+							<li>캔디 / 젤리 / 껌</li>
+							<li>비스킷 / 과자</li>
+							<li>옛날 / 전통과자</li>
+							<li>소시지 / 기타스낵</li>
+							<li>제과 / 제빵류</li>
+						</ul>
+					</li>
+					<li class="health"><!-- 건강식품 -->
+						<h2>건강식품</h2>
+						<ul>
+							<li>일반건강식품</li>
+							<li>건강기능식품</li>
+							<li>홍삼 / 인삼</li>
+							<li>비타민 / 미네랄</li>
+							<li>오메가3 / 감마리놀렌산</li>
+							<li>다이어트 / 체중조절</li>
+							<li>유산균 / 식이섬유</li>
+							<li>칼슘 / 관절</li>
+							<li>프로폴리스</li>
+							<li>눈건강 / 루테인</li>
+							<li>간건강 / 숙취해소</li>
+							<li>건강즙 / 과일즙</li>
+						</ul>
+					</li>
+					<li class="cosmetic"><!-- 화장품 / 뷰티 -->
+						<h2>화장품 / 뷰티</h2>
+						<ul>
+							<li>메이크업</li>
+							<li>스킨케어</li>
+							<li>바디케어</li>
+							<li>헤어케어</li>
+							<li>마스크팩</li>
+							<li>썬크림 / 클렌징</li>
+							<li>향수 / 기타뷰티</li>
+						</ul>
+					</li>
+					<li class="stuff"><!-- 생활 / 잡화 -->
+						<h2>생활 / 잡화</h2>
+						<ul>
+							<li>리빙 / 생활용품</li>
+							<li>의류 / 패션 / 잡화</li>
+							<li>약국 / 의약외품</li>
+							<li>주방용품</li>
+							<li>샴푸 / 치약 / 위생용품</li>
+							<li>소형가전 / IT</li>
+							<li>스포츠 / 아웃도어</li>
+							<li>자동차용품</li>
+							<li>애완용품</li>
+							<li>문구 / 사무용품</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</div>
+		
+
+		<!-- tab-3.마이페이지 화면(세번째 페이지) -->
+		<div id="tab-3" class="tab-content">
+			<header><!-- 세번째 페이지 상단 -->
+				<h2>마이페이지</h2>
+				<a href="search.html">검색</a>
+				<a href="cartpage.html">장바구니</a>
+			</header>
+			<section class="mypage">
+				<article class="profile"><!-- 회원 프로필 -->
+					<a href="photo"><img src="" alt="photo"></a>
+					<p><strong>홍길동</strong> 회원님,<br>오늘도 즐거운 쇼핑되세요!</p>
+					<a href="">내 정보 수정</a>
+					<a href="">로그아웃</a>
+				</article>
+				<article class="viewed"><!-- 최근 본 상품 -->
+					<h4>최근 본 상품</h4>
+					<ul>
+						<li><a href="detailpage.html">img1</a></li>
+						<li><a href="detailpage.html">img2</a></li>
+						<li><a href="detailpage.html">img3</a></li>
+						<li><a href="detailpage.html">img4</a></li>
+						<li><a href="detailpage.html">img5</a></li>
+					</ul>	
+				</article>
+				<article class="menu"><!-- 마이 페이지 메뉴(주문 내역만 작동) -->
+					<ul>
+						<li><a href="orderlistpage.html">주문 내역</a></li>
+						<li>반품 / 환불 내역</li>
+						<li>상품평 관리</li>
+						<li>관심 상품</li>
+					</ul>
+					<ul>
+						<li>공지사항</li>
+						<li>고객센터</li>
+						<li>나의 문의 내역</li>
+					</ul>
+				</article>
+			</section>
+		</div>
+	</div>
+
+	<footer><!-- 공통 하단(모든 탭에 동일하게 사용)(버튼 작동x) -->
+		<ul class="legal"><!-- 법령정보 -->
+			<li>회사소개</li>
+			<li>이용약관</li>
+			<li>이용안내</li>
+			<li><b>개인정보처리방침</b></li>
+		</ul>
+		<div class="info"><!-- 회사정보 -->
+			<span><b>XXXXXXXXXX</b> / 대표: XXX</span>
+			<address>주소: XXX XXX XXXXXXXX XXXXXX OOOX</address>
+			<span>사업자등록번호: OOO-OO-OOOOO <i>사업자정보확인 ></i></span>
+			<span>통신판매업신고번호: 제OOOO-XXXXXXX-OOOO호</span>
+			<span>건강기능식품 판매업신고: 제OOOO-OOOOOOO호</span>
+			<address>전화번호: OOO-OOOO-OOOO / 메일: XXXXX@XXXXX.com</address>
+			<span>개인정보관리자: XXX/ 호스팅제공: (주)XXXXXXXXX</span>
+		</div>
+		<p>※ 상기 기재된 주소는 상품 반송지가 아닙니다.<br>상품을 반송하시는 경우, 구매하신 판매처로 보내셔야 합니다.</p><!-- 주의사항 -->
+		<p>COPYRIGHT (c) XXXXXXXXXX. ALL RIGHTS RESERVED. SINCE OOOO</p><!-- 저작권 표기 -->
+	</footer>
+</body>
+</html>

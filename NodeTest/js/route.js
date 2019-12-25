@@ -2,7 +2,6 @@
  * http://usejsdoc.org/
  */
 
-
 function route(pathname,handle, response){
 
 	if(typeof handle[pathname] === 'function'){
